@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 99%;
+    height: 300px;
+    border: 7px solid rgb(29, 167, 160);
+    background-color: rgb(39, 28, 28);
+    position: relative;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #fff;
+    position: absolute;
+}
+@keyframes xa{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: #fff;
+    }
+    50%{
+        top: 120px;
+        left: 40%;
+        background-color: rgb(236, 104, 16);
+
+    }
+    100%{
+        top: 7px;
+        left: 93%;
+        background-color: rgb(240, 17, 17);
+    }
+}
+.box:hover .ball{
+    animation: xa 5s cubic-bezier(1, 0.97, 0, 0) 1s infinite alternate ;
+    transition: all ease;
+}
+
+.roller{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(10, 252, 219);
+    float: left;
+    bottom: 0;
+    position: absolute;
+}
+@keyframes xb{
+    0%{
+        left: 0;
+    }
+    40%{
+        left: 27%;
+        background-color: rgb(112, 179, 25);
+    }
+    100%{
+        left: 85%;
+    }
+}
+.box:hover .roller{
+    animation: xb 5s cubic-bezier(1, 1.02, 0,-0.01) 1s infinite alternate;
+    transition: all ease;
+}
+

@@ -1,0 +1,70 @@
+*{
+    font-family: Arial;
+}
+.main{
+    width: 100%;
+    background-color: #e4e70e;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+
+
+}
+.box{
+    
+    height: 30px;
+    background-color: rgb(84, 219, 30);
+    border: 2px solid blue;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 20px;
+}
+
+.calender li{
+    list-style: none;
+    height: 80px;
+    background-color: rgb(13, 202, 145);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.calender .dname{
+    font-size: 45px;
+    background-color: #000;
+    color: #fff;
+
+}
+.calender .dname:nth-child(6){
+    font-weight: bold;
+    background-color: rgb(253, 9, 9);
+}
+
+.calender .f{
+    background-color: red;
+    color: #fff;
+}
+.calender .eday{
+    background-color: rgb(252, 217, 23);
+}
+
+
+
+
+
+
+
+
+
+
