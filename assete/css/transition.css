@@ -1,0 +1,51 @@
+.box1{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(33, 50, 197);
+    margin-left: 500px;
+    background-image: url("../img/syem.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.boxa1{
+    width: 250px;
+    height: 100%;
+    float: left;
+    background-color: #000;
+    transition: all ease 2s;
+} 
+
+h1{
+    margin-top: 100px;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+}
+    
+.boxa2{
+    width: 250px;
+    height: 100%;
+    float: right;
+    background-color: #000;
+    transition: all ease 2s;
+    
+    
+}
+
+.box1:hover .boxa2{
+    margin-right: -250px;
+    float: right;
+}
+
+.box1:hover .boxa1{
+    margin-left: -250px;
+}
+
+
+
+
+
+
+
