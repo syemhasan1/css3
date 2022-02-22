@@ -15,6 +15,11 @@
     height: 30px;
     background-color: rgb(84, 219, 30);
     border: 2px solid blue;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -22,6 +27,7 @@ h1{
     text-align: center;
     font-size: 50px;
     font-weight: bold;
+    line-height: 90px;
 }
 
 .calender{
@@ -35,6 +41,7 @@ h1{
     height: 80px;
     background-color: rgb(13, 202, 145);
     font-size: 40px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,10 +58,10 @@ h1{
     background-color: rgb(253, 9, 9);
 }
 
-.calender .f{
+/* .calender .f{
     background-color: red;
     color: #fff;
-}
+} */
 .calender .eday{
     background-color: rgb(252, 217, 23);
 }
